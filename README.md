@@ -4,8 +4,7 @@
 ```
 Pushing template to my own repository.
 Adding new_branch to edit README.md.
-The link to my treehouse profile is 
-[here](https://teamtreehouse.com/thewiredan)
+Checkout my Treehouse profile [here](https://teamtreehouse.com/thewiredan).
 ```
 
 
