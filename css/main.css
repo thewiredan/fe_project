@@ -1,0 +1,57 @@
+
+* {
+    max-width: 900px;
+}
+
+body {
+    color: steelblue;
+}
+
+#contact-list {
+    padding-left: 6px;
+}
+
+#contact-list li {
+    display: inline;
+    padding: 0 12px;
+    border-right: solid 1px;
+    }
+#contact-list-left {
+    border-left: solid 1px;
+}
+
+/* Link Formatting */
+a:link {
+    color: darkslategray;
+} 
+
+a:visited {
+    color: rgb(38, 87, 194)l
+}
+
+a:hover {
+    color: blue;
+}
+
+a:focus {
+    background-color: darkgrey;
+}
+
+/* Floated Columns */
+.portfolio-col1 {
+    float: left;
+    width: 45%;
+}
+
+.portfolio-col2 {
+    float: right;
+    width: 45%;
+}
+
+/* Float clearfix */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:  both;
+}
+
