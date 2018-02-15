@@ -8,122 +8,128 @@
 
     <body>
         <header>
-         <ul>
-            <li>Profile</li>
-            <li>Portfolio</li>
-            <li>Experience</li>
-            <li>Contact</li>
-         </ul>
+            <div class="container header-flex">   
+                <h1>Daniel Jordan</h1>
+                <ul class="menu">
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
        </header>
        
-       <h1>Daniel Jordan</h1>
-       <h1>Jack of All Trades, Master of <del>None </del>Some</h1>
-       
+        <div class="container">
+            <h1>Jack of All Trades, Master of <del>None </del>Some</h1>
+            
+            <h2 id="profile">Profile</h2>
+            <div class="profile">
+                <h3>About Me:</h3>
+                    <p>I have a passion for learning and love picking up new skills. Since I was a child, I have enjoyed taking things apart to understand how they work and love the challange of putting it all back together again. I am currently learning front-end web development with Code Louisville and putting this lifelong curiosity to use; discovering how the internet "works." Follow my journey in the Portfolio section. Happy coding!</p>
+            
+                <h3>Details:</h3>
+                    <dl>
+                    <dt>Name: Daniel Jordan</dt>
+                    <!-- <dd>Daniel Jordan</dd> -->
+                    <dt>Location: Louisville, KY</dt>
+                    <!-- <dd>Louisville, KY</dd> -->
+                    <dt>Resume: <a href="documents/resume.pdf">Download</a></dt>
+                    <!-- <dd><a href="documents/resume.pdf">Download</a></dd>       -->
+                    </dl>
+            </div>
+                        
+            <div>   
+                <h2 id="portfolio">Portfolio</h2>
+                <div class="portfolio-col1">
+                <figure>
+                    <img src="https://www.fillmurray.com/400/300" alt="Phil Murray">
+                    <figcaption>
+                    <h4>My Super Awesome Site 1</h4>
+                    <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
+                    </figcaption>
+                </figure>
+                </div>
+                <div class="portfolio-col2">
+                <figure>
+                    <img src="http://www.placecage.com/400/300" alt="Nick Cage">
+                    <figcaption>
+                    <h4>My Super Awesome Site 2</h4>
+                    <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
+                    </figcaption>
+                </figure>
+                </div>  
+                <div class="portfolio-col1">           
+                <figure>
+                    <img src="https://placekitten.com/g/400/300" alt="Cat">
+                    <figcaption>
+                    <h4>My Super Awesome Site 3</h4>
+                    <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
+                    </figcaption>
+                </figure>
+                </div>
+                <div class="portfolio-col2">
+                <figure>
+                    <img src="http://www.stevensegallery.com/400/300" alt="Segal">
+                    <figcaption>
+                    <h4>My Super Awesome Site 4</h4>
+                    <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
+                    </figcaption>
+                </figure>
+                </div>
+            </div>
 
-        <h2>Profile</h2>
-        <div class="profile">
-            <h3>About Me:</h3>
-                <p>I have a passion for learning and love picking up new skills. Since I was a child, I have enjoyed taking things apart to understand how they work and love the challange of putting it all back together again. I am currently learning front-end web development with Code Louisville and putting this lifelong curiosity to use; discovering how the internet "works." Follow my journey in the Portfolio section. Happy coding!</p>
-        
-            <h3>Details:</h3>
-                <dl>
-                   <dt>Name:
-                   <dd>Daniel Jordan</dd>
-                   <dt>Location:</dt>
-                   <dd>Louisville, KY</dd>
-                   <dt>Resume:</dt>
-                   <dd><a href="documents/resume.pdf">Download</a></dd>      
-                </dl>
-        </div>
-                
-        <div>   
-            <h2>Portfolio</h2>
-            <div class="portfolio-col1">
-            <figure>
-                <img src="https://www.fillmurray.com/400/300" alt="Phil Murray">
-                <figcaption>
-                <h4>My Super Awesome Site 1</h4>
-                <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
-                </figcaption>
-            </figure>
-            </div>
-            <div class="portfolio-col2">
-            <figure>
-                <img src="http://www.placecage.com/400/300" alt="Nick Cage">
-                <figcaption>
-                <h4>My Super Awesome Site 2</h4>
-                <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
-                </figcaption>
-            </figure>
-            </div>  
-            <div class="portfolio-col1">           
-            <figure>
-                <img src="https://placekitten.com/g/400/300" alt="Cat">
-                <figcaption>
-                <h4>My Super Awesome Site 3</h4>
-                <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
-                </figcaption>
-            </figure>
-            </div>
-            <div class="portfolio-col2">
-            <figure>
-                <img src="http://www.stevensegallery.com/400/300" alt="Segal">
-                <figcaption>
-                <h4>My Super Awesome Site 4</h4>
-                <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
-                </figcaption>
-            </figure>
-            </div>
-        </div>
-
-        <div>
-        <h2>Work Experience</h2>
             <div>
-                <h4>Farm Credit-Mid America</h4>
+            <h2 id="experience">Work Experience</h2>
+                <div>
+                    <h4>Farm Credit-Mid America</h4>
 
-                <h5>Capital Markets Credit Officer | June 2015 - Present</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                   
-                <h5>Credit Analyst                 | December 2011 - June 2015</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h5>Capital Markets Credit Officer | June 2015 - Present</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    
+                    <h5>Credit Analyst                 | December 2011 - June 2015</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    
+                    <h4>Spencer County High School</h4>
+
+                        <h5>College and Career Coach | November 2010 - December 2011</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+            </div>
+
+            <h2>Educaiton</h2>
+            <div>
+                <h4>Code Louisville</h4>
+
+                    <h5>Front-End Web Development | January 2018 - Present</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 
-                <h4>Spencer County High School</h4>
+                <h4>Western Governors University</h4>
 
-                    <h5>College and Career Coach | November 2010 - December 2011</h5>
+                    <h5>Master of Business Administration | January 2016 - June 2017</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                <h4>University of Kentucky</h4>
+
+                    <h5>Master of Science: Plant Science | January 2008 - June 2010</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4>Berea College</h4>
+
+                    <h5> Bachelor of Science: Agriculture and Natural Resources | August 2004 - December 2007</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-
         </div>
-
-        <h2>Educaiton</h2>
-        <div>
-             <h4>Code Louisville</h4>
-
-                <h5>Front-End Web Development | January 2018 - Present</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <h4>Western Governors University</h4>
-
-                <h5>Master of Business Administration | January 2016 - June 2017</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    
-            <h4>University of Kentucky</h4>
-
-                <h5>Master of Science: Plant Science | January 2008 - June 2010</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h4>Berea College</h4>
-
-                <h5> Bachelor of Science: Agriculture and Natural Resources | August 2004 - December 2007</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <h2>Contact Me</h2>
        
-        <ul id="contact-list">
-            <li id=contact-list-left><a href="mailto:Daniel.L.Jordan@gmail.com">Email</a>
-            <li><a href="https://github.com/thewiredan">GitHub Profile</a>
-            <li><a href="https://teamtreehouse.com/thewiredan">Treehouse Profile</a>
-            <li><a href="https://linkedin.com/in/danielnjordan">LinkedIn</a>             
-        </ul>
-
+       <footer>
+        <div class="container">
+            <h4 id="contact">Contact Me</h4>
+            <ul id="contact-list">
+                <li id=contact-list-left><a href="mailto:Daniel.L.Jordan@gmail.com">Email</a>
+                <li><a href="https://github.com/thewiredan">GitHub Profile</a>
+                <li><a href="https://teamtreehouse.com/thewiredan">Treehouse Profile</a>
+                <li><a href="https://linkedin.com/in/danielnjordan">LinkedIn</a>             
+            </ul>
+        </div>
+        </footer>
     </body>
 </html> 

@@ -10,10 +10,32 @@
     font-weight: normal;
     font-style: normal;
 }
-/* Base Styles */
 
-* {
-    max-width: 1200px;
+/* Base Styles */   
+
+header, /* Set header background to full width */        
+footer {
+    background: rgb(198, 203, 209);
+    width: 100%;
+}
+.header-flex,
+.header-flex ul {
+    display: flex;
+}
+
+.header-flex {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container { /*Center*/
+margin: auto;
+padding: 0 15px;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 5px 15px;
 }
 
 h1,
@@ -23,22 +45,22 @@ figure  {
 
 header ul {
     list-style: none;
-    padding: 0;
+    padding:0;
 }
 
 h1,
 h2,
 h3 {
     font-family: 'League Gothic', Georgia, Times, serif;
-    
 }
 
 body {
-    color: steelblue;
-    margin: auto;
-    width: 80%;
-    padding: 15px; 
-    
+    color: steelblue;  
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
 }
 
 #contact-list {
@@ -50,6 +72,7 @@ body {
     padding: 0 12px;
     border-right: solid 1px;
     }
+
 #contact-list-left {
     border-left: solid 1px;
 }
@@ -71,20 +94,21 @@ a:focus {
     background-color: darkgrey;
 }
 
-/* Flex Styles */
+.menu a:link {
+    color: darkslategray;
+} 
 
-.profile,
-header {
-    display: flex;
-    flex-wrap: wrap;
+.menu a:visited {
+    color: rgb(38, 87, 194)l
 }
 
-.profile h3,
-.profile p,
-.profile dl {
-    background: red;
+.menu a:hover {
+    color: blue;
 }
 
+.menu a:focus {
+    background-color: darkgrey;
+}
 
 
 /* Media Queries */
@@ -96,6 +120,24 @@ header {
 
 
 @media (min-width:769px) {
+
+
+/* Flex Styles */
+
+.profile,
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    justify-content: space-around;
+}
+
+
+    * {
+        max-width: 1200px;
+    }
 
     .profile h3,
     .profile p,
