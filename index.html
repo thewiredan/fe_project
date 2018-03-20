@@ -7,82 +7,93 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Daniel Jordan | Jack of All Trades</title>
+   <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main2.css">
+    <title>Daniel Jordan</title>
   </head>
   <body>
-        <header class = "navbar sticky-top navbar-expand-lg margin" role="navigation">
-            <a class="navbar-brand" href="#">Daniel Jordan</a>
+        <header class = "header-bg navbar navbar-dark sticky-top navbar-expand-sm" role="navigation"> 
+            
+            <a class="navbar-brand ml-5" href="#">Daniel Jordan</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="ml-auto mr-5 navbar-nav text-center">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#profile">Profile</a>
                     <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
                     <a class="nav-item nav-link" href="./resume.html">Experience</a>
                     <a class="nav-item nav-link" href="#contact">Contact</a>
                 </div>
-            </div>           
+            </div>          
        </header>
        
-        <div class="container">
-            <h1>Jack of All Trades, Master of <del>None </del>Some</h1>
+        <div class="w-75 m-auto pt-4">
+            <h2 class="text-center" >Jack of All Trades, Master of <del>None </del>Some</h2>
             
-            <h2 id="profile">Profile</h2>
-            <div class="profile">
-                <h3>About Me:</h3>
+            <h3 class="pt-4" id="profile">Profile</h3>
+            <div class="container pt-2">
+                <div class="row">
+                <div class="col-md-8">
+                    <h4>About Me:</h4>
                     <p>I have a passion for learning and love picking up new skills. Since I was a child, I have enjoyed taking things apart to understand how they work and love the challange of putting it all back together again. I am currently learning front-end web development with Code Louisville and putting this lifelong curiosity to use; discovering how the internet "works." Follow my journey in the Portfolio section. Happy coding!</p>
-            
-                <h3>Details:</h3>
-                    <dl>
-                    <dt>Name: Daniel Jordan</dt>
-                    <!-- <dd>Daniel Jordan</dd> -->
-                    <dt>Location: Louisville, KY</dt>
-                    <!-- <dd>Louisville, KY</dd> -->
-                    <dt>Resume: <a href="documents/resume.pdf">Download</a></dt>
-                    <!-- <dd><a href="documents/resume.pdf">Download</a></dd>       -->
-                    </dl>
+                </div>
+                <div class="col-md-4">
+                <h4>Details:</h4>
+                    <ul class="list-group borderless">
+                    <li class="list-group-item">Name: Daniel Jordan</li>
+                    <li class="list-group-item">Location: Louisville, KY</li>
+                    <li class="list-group-item">Resume: <a href="documents/resume.pdf">Download</a></li>
+                    </ul>
+                </div>
+                </div>
             </div>
                         
             <div>   
-                <h2 id="portfolio">Portfolio</h2>
-                <div class="portfolio-col1">
+                <h3 class="pt-4" id="portfolio">Portfolio</h3>
+            <div class="container port-div">
+                <div class="row pt-2">
+                <div class="col">
                 <figure>
-                    <img src="https://www.fillmurray.com/400/300" alt="Phil Murray">
+                    <img class="responsive-img" src="https://www.fillmurray.com/400/300" alt="Phil Murray">
                     <figcaption>
-                    <h4>My Super Awesome Site 1</h4>
+                    <h5>My Super Awesome Site 1</h5>
                     <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
                     </figcaption>
                 </figure>
                 </div>
-                <div class="portfolio-col2">
+                <div class="col">
                 <figure>
-                    <img src="http://www.placecage.com/400/300" alt="Nick Cage">
+                    <img class="responsive-img" src="http://www.placecage.com/400/300" alt="Nick Cage">
                     <figcaption>
-                    <h4>My Super Awesome Site 2</h4>
-                    <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
-                    </figcaption>
-                </figure>
-                </div>  
-                <div class="portfolio-col1">           
-                <figure>
-                    <img src="https://placekitten.com/g/400/300" alt="Cat">
-                    <figcaption>
-                    <h4>My Super Awesome Site 3</h4>
+                    <h5>My Super Awesome Site 2</h5>
                     <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
                     </figcaption>
                 </figure>
                 </div>
-                <div class="portfolio-col2">
+                </div>
+                <div class="row pt-3"> 
+                <div class="col">           
                 <figure>
-                    <img src="http://www.stevensegallery.com/400/300" alt="Segal">
+                    <img class="responsive-img" src="https://placekitten.com/g/400/300" alt="Cat">
                     <figcaption>
-                    <h4>My Super Awesome Site 4</h4>
+                    <h5>My Super Awesome Site 3</h5>
                     <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
                     </figcaption>
                 </figure>
                 </div>
+                <div class="col">
+                <figure>
+                    <img class="responsive-img" src="http://www.stevensegallery.com/400/300" alt="Segal">
+                    <figcaption>
+                    <h5>My Super Awesome Site 4</h5>
+                    <a href="https://thewiredan.github.io/gh-pages1/" target="blank">View More</a>
+                    </figcaption>
+                </figure>
+                </div>
+                </div>
+            </div>
             </div>          
         </div>
        

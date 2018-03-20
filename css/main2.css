@@ -1,0 +1,29 @@
+/* Custom CSS*/
+
+.borderless li {
+    border: none;  /*remove border from bootstrap styled list-group*/
+}
+
+.header-bg {
+    background-color: indianred; /*apply custom background color to navbar*/
+}
+
+
+
+/* Media Queries */
+@media (max-width: 1175px) {   /*resize img's below viewport width of 1175px to preserve 2 column layout*/
+    .responsive-img {
+        width: 100%
+    }
+}
+
+@media (max-width: 768px) { /*resize img's and center figures below viewport width of 768px*/
+    .responsive-img {
+        max-width: 350px;
+        min-width: 300px;
+        
+    }
+    .port-div {
+        text-align: center
+    }
+}
