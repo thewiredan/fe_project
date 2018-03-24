@@ -1,14 +1,31 @@
 /* Custom CSS*/
 
+.main-title {
+
+}
+
 .borderless li {
     border: none;  /*remove border from bootstrap styled list-group*/
 }
 
 .header-bg {
     background-color: indianred; /*apply custom background color to navbar*/
-}
+}   
 
-
+.cap-overlay {
+    display: none;
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: calc(100% - 15px);
+    width: calc(100% - 30px);
+    opacity: 0.75;
+    transition: 1.5s ease;
+    background-color: gray;
+  }
 
 /* Media Queries */
 @media (max-width: 1175px) {   /*resize img's below viewport width of 1175px to preserve 2 column layout*/
