@@ -4,6 +4,7 @@ $("figure").hover(                              // when hovering over a figure o
         "display": "block",
         "height": $(this).children("img").height(), //sets height to image height
         "width": $(this).children("img").width(),   //sets width to image width
+    });
     }, function(){
-    $(this).children("figcaption").css("display", "none"); //hides overlay on hover exit
+    $(this).children("figcaption").css("display", "none"); //hides overlay on hover
 });

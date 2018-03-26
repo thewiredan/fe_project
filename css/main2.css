@@ -1,7 +1,8 @@
 /* Custom CSS*/
 
 .main-title {
-
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.75em;
 }
 
 .borderless li {
@@ -18,9 +19,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.8;
-    transition: 20s ease;
-    background-color: gray;
+    opacity: 0.9;
+    transition: .2s ease;
+    background-color: indianred;
   }
 
   figure {
@@ -40,7 +41,7 @@
         max-width: 350px;
         min-width: 300px;
     }
-    
+
     .port-div {
         text-align: center
     }
