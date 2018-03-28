@@ -5,15 +5,14 @@
     font-size: 2.75em;
 }
 
-/* .strike {
-    text-decoration-line: line-through;
-    text-decoration-color: rgb(243, 137, 137);
-} */
+.main-content {
+    max-width: 90%;
+}
 
 /*custom strikethrough effect for title*/
 .strike {                               
-        display: inline-block;
-        position: relative;
+    display: inline-block;
+    position: relative;
 }
 
 .strike:before {
@@ -46,22 +45,38 @@
     background-color: indianred;
   }
 
-  figure {
+figure {
       display: inline-block;
       position: relative;  /*override bootstrap default formatting*/
   }
 
-  .copyright {
-      font-size: 12px;
-      text-align: right;
-      color: indianred
-    }
+figcaption {              
+    font-size: 70%;         /*mobile first fig caption sizing*/
+    text-align: left;
+    color: ivory;
+}
 
-  #contact-list a {     /*format contact list color which is passed onto icons*/
+.port-div {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: right;
+    color: indianred
+}
+
+.responsive-img {    /*mobile first img sizing*/
+    width: 100%;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+#contact-list a {     /*format contact list color which is passed onto icons*/
     color: indianred;
-  }
+}
 
-  hr {                              /*format rule*/
+hr {                   /*custom format for rule*/
     display: block;
     position: relative;
     padding: 0;
@@ -75,22 +90,24 @@
     border: none;
     border-top: 2px solid indianred;
     border-bottom: 1px solid #ffffff;
- }
+}
 
 /* Media Queries */
-@media (max-width: 1175px) {   /*resize img's below viewport width of 1175px to preserve 2 column layout*/
+
+@media (min-width: 400px) {   /*control image width and figcaption size above screen size of 400px*/
     .responsive-img {
-        width: 100%
+        min-width: 300px;
+        max-width: 100%;
+    }
+
+    figcaption {
+        font-size: 100%;
     }
 }
 
-@media (max-width: 768px) { /*resize img's and center figures below viewport width of 768px*/
-    .responsive-img {
-        max-width: 350px;
-        min-width: 300px;
-    }
-
-    .port-div {
-        text-align: center
+@media (min-width: 768px) {  /*control width of main-content div above screen size of 768px*/
+    
+    .main-content {
+        max-width: 80%;
     }
 }
