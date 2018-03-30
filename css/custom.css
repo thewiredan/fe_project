@@ -1,0 +1,120 @@
+/* Custom CSS*/
+
+/*Sticky footer start*/
+body, 
+.wrapper {
+    min-height:100vh;
+ }
+
+ .flex-fill {
+    flex:1 1 auto;
+ } /*Sticky footer end*/
+
+.main-title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.75em;
+}
+
+/*custom strikethrough effect for title*/
+.strike {                               
+    display: inline-block;
+    position: relative;
+}
+
+.strike:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 3px; 
+    background: indianred; 
+    transform: rotate(5deg);
+  } /*end custom strikethrough effect*/
+
+.borderless li {
+    border: none;  /*remove border from bootstrap styled list-group*/
+}
+
+.header-bg {
+    background-color: indianred; /*apply custom background color to navbar*/
+}   
+
+.cap-overlay {                /*style portfolio image overlay*/
+    display: none;
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+    background-color: indianred;
+  }
+
+figure {
+      display: inline-block;
+      position: relative;  /*override bootstrap default formatting*/
+  }
+
+figcaption {              
+    font-size: 70%;         /*mobile first fig caption sizing*/
+    text-align: left;
+    color: ivory;
+}
+
+.port-div {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: right;
+    color: indianred
+}
+
+.responsive-img {    /*mobile first img sizing*/
+    width: 100%;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+
+#contact-list a {     /*format contact list color which is passed onto icons*/
+    color: indianred;
+}
+
+hr {                   /*custom format for rule*/
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    height: 0;
+    width: 95%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 2px solid indianred;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* Media Queries */
+
+@media (min-width: 400px) {   /*control image width and figcaption size above screen size of 400px*/
+    .responsive-img {
+        min-width: 300px;
+        max-width: 100%;
+    }
+
+    figcaption {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 768px) {  /*control width of main-content div above screen size of 768px*/
+    
+    .main-content {
+        max-width: 80%;
+        max-width: 1140px;
+    }
+}
