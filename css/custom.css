@@ -1,12 +1,18 @@
 /* Custom CSS*/
 
+/*Sticky footer start*/
+body, 
+.wrapper {
+    min-height:100vh;
+ }
+
+ .flex-fill {
+    flex:1 1 auto;
+ } /*Sticky footer end*/
+
 .main-title {
     font-family: 'Indie Flower', cursive;
     font-size: 2.75em;
-}
-
-.main-content {
-    max-width: 90%;
 }
 
 /*custom strikethrough effect for title*/
@@ -41,7 +47,6 @@
     top: 0;
     left: 0;
     opacity: 0.85;
-    transition: .2s ease;
     background-color: indianred;
   }
 
@@ -71,6 +76,7 @@ figcaption {
     min-width: 250px;
     max-width: 300px;
 }
+
 
 #contact-list a {     /*format contact list color which is passed onto icons*/
     color: indianred;
@@ -109,5 +115,6 @@ hr {                   /*custom format for rule*/
     
     .main-content {
         max-width: 80%;
+        max-width: 1140px;
     }
 }
