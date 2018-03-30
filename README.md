@@ -9,7 +9,6 @@ as to demonstrate my comprehension of front-end web development, including: HTML
 ## Responsive Design
 
 Leveraging the responsive design capabilities of Bootstrap 4, combined with my own custom media queries, I was able to create a website that maintains good visual appeal and usability for screen sizes ranging from a small phone to a 4k display.
->>>>>>> new_branch
 
 
 
