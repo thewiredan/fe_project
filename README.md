@@ -1,18 +1,20 @@
 # Portfolio/Resume Site
 
 ## Description
-```
-I created this website to serve as both a portfolio/resume site for potential employers, as well as to demonstrate my comprehension of front-end web development, including: HTML5, CSS3, JavaScript, front-end frameworks such as Bootstrap 4, and JavaScript libraries such as jQuery.  
-```
 
-# Responsive Design
-```
+I created this website to serve as both a portfolio/resume site for potential employers, as well 
+as to demonstrate my comprehension of front-end web development, including: HTML5, CSS3, JavaScript, front-end frameworks such as Bootstrap 4, and JavaScript libraries such as jQuery.  
+
+
+
+## Responsive Design
+
 Leveraging the responsive design capabilities of Bootstrap 4, combined with my own custom media queries, I was able to create a website that maintains good visual appeal and usability for screen sizes ranging from a small phone to a 4k display.
-```
+
 
 
 ## Custom CSS Classes
-```
+
 While I created numerous custom CSS classes, I highlight three notable ones below:
 
 1. .strike
@@ -23,11 +25,11 @@ The .responsive-img custom class was used to set a baseline mobile-first image s
 
 3. .cap-overlay
 The .cap-overlay custom class was used to style the static properties of the image overlays and hide them via the {display: none} css property in preparation for the custom JavaScript function discussed below. 
-```
+
 
 
 ## Custom JavaScript Functions
-```
+
 The javascript functions I created are:
 
 1. capShow()
@@ -35,4 +37,4 @@ Using the jQuery hover method, when the user mouseover's the figure element, the
 
 2. capHide()
 The capHide() function  uses the .css() method to set the display property back to none, hiding the caption.
-```
+
